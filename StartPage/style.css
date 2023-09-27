@@ -1,0 +1,70 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 200px 40%;
+    background-image: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    transition: color 200ms ease;
+}
+
+form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: .5em;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    text-align: left;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: #fff;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+#reloj {
+    font-size: 6em;
+    line-height: 1em;
+}
+
+#background {
+    background-image: url("wall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
