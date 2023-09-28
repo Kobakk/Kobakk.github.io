@@ -12,6 +12,7 @@
 <body>
     <div id="background"></div>
     <div id="reloj"></div>
+    
     <form role="search" id="form">
         <input type="search" id="query" name="q" placeholder="Search on Google... " aria-label="Search through site content">
         <button> <svg viewBox="0 0 1024 1024">
@@ -23,7 +24,7 @@
     <script>
         const f = document.getElementById('form');
         const q = document.getElementById('query');
-        const google = 'https://source.unsplash.com/random/1900*900/?city,night';
+        const google = 'https://google.com/search?q=';
   
         function submitted(event) {
           event.preventDefault();
@@ -34,7 +35,6 @@
   
         f.addEventListener('submit', submitted);
       </script>
-
 </body>
 
 </html>
