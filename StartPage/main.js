@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let elemento = document.getElementById("hora");
+    let elemento = document.getElementById("reloj");
 
     let time = setInterval(() => {
         var date = new Date();
