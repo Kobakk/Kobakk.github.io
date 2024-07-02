@@ -2,28 +2,159 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kobakk</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <link rel="shortcut icon" href="moon.png" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="shortcut icon" href="assets/img/logoSev.png" type="image/x-icon">
+  <meta name="description" content="Web Developer from Spain">
+  <meta name="keywords" content="html, css, spain, javascript, sql, backend, frontend">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Sebastián Vélez">
+  <title>Web Developer | Sebastián Vélez</title>
 </head>
 
 <body>
-    <div id="mainPanel">
-        <img src="pic.jpg" alt="yokohama" width="200rem" style="border-radius: 25px;">
-        <div id="textCentral" style="padding-left: 3rem;">
-            <h1>Kobakk Landing page</h1>
-            <p id="text">These are my projects.</p>
-            <ul style="font-size: 15px;">
-                <li><a href="StartPage/startpage.html">Starting page</a></li>
-                <li><a href="ProyectoInterfacesWeb">PicInspo</a></li>
-                <li><a href="Boostrap">PicInspo Boostrap</a></li>
-            </ul>
-        </div>
+  <header class="header">
+    <nav class="nav">
+      <h2 class="logo">
+        <a href="index.html" class="logo-titulo">sevdev</a>
+      </h2>
 
-    </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <ul class="nav-list">
+        <li class="nav-item"><a href="index.html" class="nav-link">Presentación</a></li>
+        <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="presentation">
+      <article class="box-avatar">
+        <a href="https://www.linkedin.com/in/sebasveleza/"> <span class="button-work">Disponible para
+            trabajar</span></a>
+        <img src="assets/img/webdeveloperProfile.png" alt="profileAvatar" class="avatar">
+      </article>
+
+      <article class="box-center">
+        <h1 class="titulo" id="titulo">Sebastián Vélez A. </h1>
+        <h2 class="sub-titulo">Web developer</h2>
+        <p class="main-text">
+          👋 Soy un programador enfocado en el  desarrollo web, aficionado por el mundo <br>
+          de la programación y sistemas. Me encuentro cursando desarrollo <br>
+          web en España 🇪🇸 , ademas realizando proyectos en GitHub.
+        </p>
+      </article>
+    </section>
+    <section class="box">
+      <article class="bento">
+        <a href="">Linkedin</a>
+        <a href="">TikTok</a>
+        <a href="">GitHub</a>
+      </article>
+
+    </section>
+    <section class="box">
+      <article class="bento">
+        <h3 class="section-title">Experiencia Laboral</h3>
+        <ul>
+          <li>
+            <h4>Técnico Informatico - <span class="orange"> North Market</span> </h4>
+
+          <p>Marzo 2022 - Junio 2022</p>
+          <p>Maquetación de paginas con <em>WordPress</em>, con su implementacion de hosting y dominio.
+            <br>
+            Resolución de incidencias informaticas presencial y onlin(hardware/software) de los dispositivos que usan los empleados de la empresa.</p>
+          </li>
+          <li>
+            <h4>Camarero -  <span class="orange">El Rey de los Tacos</span> </h4>
+          <p>Julio 2023 - Septiembre 2023 </p>
+          <p>Camarero de barra, atención al cliente, manejo de caja.</p>
+        </li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="box">
+        <h3 class="section-title" id="proyectos" >Proyectos </h3>
+      <article class="bento">
+        <div class="img-box">
+          <img src="" alt="" class="cuadrado">
+        <ul>
+          <li><h4> Comercio Electronico</h4></li>
+          <p>Tecnologias (Js, MariaDB, NodeJs)</p>
+          <p>Negocio utilizando base de datos en mariaD</p>
+        </ul>
+      </div>
+      <article class="bento">
+        <div class="img-box">
+          <img src="" alt="" class="cuadrado">
+        <ul>
+          <li><h4> Comercio de Segunda Mano</h4></li>
+          <p>Tecnologias (Js, MariaDB, NodeJs)</p>
+          <p>Negocio utilizando base de datos en mariaD</p>
+        </ul>
+      </div>
+
+      </article>
+    </section>
+
+    <section class="box">
+      <article class="bento">
+        <h3>Tecnologias</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, qui. Ipsum error, deserunt sit voluptate quasi fuga eaque accusantium deleniti minus corrupti ipsam saepe, unde assumenda sequi quidem tempore dolore.</p>
+      </article>
+    </section>
+
+
+    <section class="box">
+      <h3 id="contacto">Sobre mi</h3>
+      <article class="box-avatar">
+        <img src="assets/webdeveloperProfile.png" alt="profileAvatar" class="avatar">
+      </article>
+      <article class="bento">
+        <p>Me llamo Sebastián mis amigos me dicen sebas. Soy una persona entusiasta de la programacion
+          y el diseño web , desde pequeño estaba interesado por el tema artistico/diseño que he desarrollado
+          por medio de la ilustración y dibujo 🎨.
+        </p>
+        <p>Duarante la pandemia comence el grado de sistemas con el que aprendi linux 🐧 como manejo de
+          servidores y redes, acabandolo en 2022 y comenzando el grado de desarrollo web.
+        </p>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <a href="">Contacto</a>
+    <a href="#titulo">Presentacion</a>
+    <a href="">Infojobs</a>
+  </footer>
+  <script>
+    let hamburger = document.querySelector(".hamburger");
+    hamburger.onclick = function () {
+      let navList = document.querySelector(".nav-list");
+      hamburger.classList.toggle("--open");
+      navList.classList.toggle("active");
+    }
+    let navlink = document.querySelectorAll(".nav-item");
+    navlink.forEach(function (links) {
+      links.addEventListener("click", function (event) {
+        //event.preventDefault();
+        let navList = document.querySelector(".nav-list.active");
+        navList.className = "nav-list";
+        hamburger.className = "hamburger";
+      });
+
+    });
+  </script>
 </body>
 
 </html>
