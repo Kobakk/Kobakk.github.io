@@ -151,6 +151,10 @@ main{
 .avatar{
   width: 200px;
 }
+/* ICONOS */
+.iconos{
+  max-width: 25px;
+}
 /* Sections and Boxes*/
 section{
   display: flex;
