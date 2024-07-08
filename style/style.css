@@ -197,8 +197,9 @@ footer > a{
 .cuadrado{
   border-radius: unset;
   background: red;
-  width: 200px;
-  height:  150px;
+  /* width: 200px;
+  height:  150px; */
+  width: 75%;
 }
 .orange{
   color: var(--naranja);
@@ -207,6 +208,16 @@ footer > a{
 }
 h4{
   font-weight: 500;
+}
+.box-enlaces{
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+.box-enlaces>a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 /*Tablet Vista*/
 @media only screen and (min-width: 768px){
