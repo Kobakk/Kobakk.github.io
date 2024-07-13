@@ -49,6 +49,9 @@ nav{
   margin: 0;
   padding: 0;
 }
+ul{
+  list-style: none;
+}
 .navlist ul li a{
   transition: 0.5s;
 }
@@ -121,7 +124,9 @@ main{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3em;
+}
+.small-box{
+  margin: unset;
 }
 /*Presentation*/
 .presentation{
@@ -153,7 +158,10 @@ main{
 }
 /* ICONOS */
 .iconos{
-  max-width: 25px;
+  max-width: 30px;
+}
+.iconos:hover{
+  max-width: 35px;
 }
 /* Sections and Boxes*/
 section{
