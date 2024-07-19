@@ -10,8 +10,9 @@
   --contrast:#76ABAE;
   --naranja: #ff9a3c;
 }
+/* CSS Responsive Firts Mobile*/
 html{
-  font-family: "Inter";
+  font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--font);
   background: var(--background);
   font-size: 12px;
@@ -139,14 +140,14 @@ h4{
 }
 .titulo{
   font-weight: 900;
-  font-size: 28px;
+  font-size: 40px;
   color: var(--contrast);
 }
 .sub-titulo{
   margin-bottom: 10px;
 }
 .main-text{
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 15px;
 }
 .box-avatar{
@@ -232,6 +233,9 @@ gap: 50px;
   align-items: center;
   gap: 5px;
 }
+footer{
+  margin: 50px;
+}
 /*Tablet Vista*/
 @media only screen and (min-width: 768px){
   html{
@@ -316,13 +320,13 @@ gap: 50px;
     font-size: 16px;
   }
   .section-title{
-    font-size: 21px;
+    font-size: 25px;
   }
   .orange{
     font-size: 14px;
   }
   .main-text{
-    font-size: 17px;
+    font-size: 20px;
   }
   section{
     margin-top: 20px;
@@ -331,10 +335,22 @@ gap: 50px;
     margin-top: 50px;
   }
   .titulo{
-    font-size: 34px;
+    font-size: 40px;
   }
   .sub-titulo{
     font-size: 20px;
     padding-top: 10px;
+  }
+  /*---- Imagenes ----*/
+  .cuadrado{
+    width: 100%;
+    border-radius: 5px;
+  }
+  .cuadrado:hover{
+    width: 120%;
+  }
+  /*--- Cajas ---*/
+  .bento{
+    max-width: 800px;
   }
 }
