@@ -164,10 +164,7 @@ h4{
 }
 /* ICONOS */
 .iconos{
-  max-width: 30px;
-}
-.iconos:hover{
-  max-width: 35px;
+  max-width: 20px;
 }
 /* Sections and Boxes*/
 section{
@@ -235,6 +232,12 @@ gap: 50px;
 }
 footer{
   margin: 50px;
+}
+.enlace{
+  border: 0.25px solid rgb(32, 38, 57);
+  border-radius: 15px;
+  padding: 5px;
+  background: rgb(32, 38, 57);
 }
 /*Tablet Vista*/
 @media only screen and (min-width: 768px){
