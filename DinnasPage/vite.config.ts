@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   // Base URL configuration for GitHub Pages
   base: mode === 'production' 
-    ? '/Kobakk.github.io/' // Replace with your actual repository name
+    ? '/DinnasPage/' // Replace with your actual repository name
     : '/',
   
   server: {
